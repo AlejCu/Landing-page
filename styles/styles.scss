@@ -29,20 +29,15 @@ header {
     box-sizing: border-box;
     z-index: 100;
 
-    ul {
-        text-decoration: none;
-        list-style-type: none;
+    nav {
         display: flex;
-    }
-
-    li {
-        font-weight: 550;
     }
 
     a {
         text-decoration: none;
         padding: 10px 15px;
         border-radius: 20px;
+        font-weight: 550;
         margin: 5px;
 
         &:hover {
@@ -114,7 +109,7 @@ header {
     }
 
     h2 {
-        color: #4E6FDE;
+        color: #3058db;
         margin-bottom: 10px;
         font-size: 18px;
         text-transform: uppercase;
