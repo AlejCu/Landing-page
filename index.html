@@ -11,7 +11,13 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://alejcu.github.io/Landing-page">
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <link rel="preload" as="image" href="./assets/banner.jpg">
+    <link rel="preload" as="image" href="./assets/electric-bike-seat.webp">
+    <link rel="preload" as="image" href="./assets/electric-bike-battery.webp">
+    <link rel="preload" as="image" href="./assets/electric-bike-box.webp">
+    <link rel="preload" as="image" href="./assets/electric-bike-insurance.webp">
 </head>
 <body>
     <header>
@@ -34,7 +40,7 @@
                 <p>Discover the best electric bikes, with comfy seats, great battery life, and tons of attachments to personalize them to your needs.</p>
             </div>
 
-            <img src="./assets/banner.png" alt="Woman using one of our electric bikes">
+            <img src="./assets/banner.jpg" alt="Woman using one of our electric bikes" fetchpriority="high">
         </section>
 
         <section id="nav-know-more" class="landingPage-quality-mainContainer">
@@ -42,7 +48,7 @@
                 <article class="seats-container">
                     <h2>Seats</h2>
                     <div class="img-container">
-                        <img src="./assets/electric-bike-seat.png" alt="Electric bike seat">
+                        <img src="./assets/electric-bike-seat.webp" alt="Electric bike seat" loading="lazy">
                     </div>
                     <p>Comfortable long lasting seats.</p>
                 </article>
@@ -50,7 +56,7 @@
                 <article class="battery-container">
                     <h2>Battery</h2>
                     <div class="img-container">
-                        <img src="./assets/electric-bike-battery.png" alt="Electric bike battery">
+                        <img src="./assets/electric-bike-battery.webp" alt="Electric bike battery" loading="lazy">
                     </div>
                     <p>Battery lasts for 30 to 150 km per charge.</p>
                 </article>
@@ -58,7 +64,7 @@
                 <article class="storage-container">
                     <h2>Storage</h2>
                     <div class="img-container">
-                        <img src="./assets/electric-bike-box.png" alt="Electric bike box for storage">
+                        <img src="./assets/electric-bike-box.webp" alt="Electric bike box for storage" loading="lazy">
                     </div>
                     <p>A bike box can be added for extra storage space.</p>
                 </article>
@@ -66,7 +72,7 @@
                 <article class="insurance-container">
                     <h2>Insurance</h2>
                     <div class="img-container">
-                        <img src="./assets/electric-bike-insurance.png" alt="Electric bike with a beach in the background">
+                        <img src="./assets/electric-bike-insurance.webp" alt="Electric bike with a beach in the background" loading="lazy">
                     </div>
                     <p>Each purchase comes with the best insurance for you.</p>
                 </article>
